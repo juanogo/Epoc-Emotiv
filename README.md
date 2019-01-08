@@ -9,7 +9,7 @@ A short real time demo can be watched in my TED Talk:
 
 ## Here is the pipeline:
 
-  __1.__	    Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
+* __1.__	    Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
 
   __2.__	    Using these features, train three algorithms: __Logistic Regression, Convolutional Neural Network and Recurrent Neural Network__ (genPreds_CNN_Tim.py, genPreds_RNN.py)
 
