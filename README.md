@@ -11,7 +11,7 @@ A short real time demo can be watched in my TED Talk:
 
 * Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
 
-* Using these features, train three algorithms: __Logistic Regression__, [__Convolutional Neural Network__](http://yann.lecun.com/exdb/publis/pdf/lecun-99.pdf) and __Recurrent Neural Network__ (genPreds_CNN_Tim.py, genPreds_RNN.py)
+* Using these features, train three algorithms: __Logistic Regression__, [__Convolutional Neural Network__](http://yann.lecun.com/exdb/publis/pdf/lecun-99.pdf) and [__Recurrent Neural Network__](https://arxiv.org/pdf/1308.0850.pdf) (genPreds_CNN_Tim.py, genPreds_RNN.py)
 
 * The above algorithms produce predictions that are then used to train another set of higher-level algorithms: [__XGBoost__](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf), Recurrent Neural Network, Neural Network and Convolutional Neural Network (XGB.py, NeuralNet.py)
 
