@@ -17,7 +17,7 @@ Here is the pipeline:
 
 The final system for rehabilitation was created at BIOS Colombia (www.biosco) during my term as a Senior Scientific Researcher, as part of the project REGALIAS.
 
-Dependencies:
+## Dependencies:
 
 Python 2.7
 
@@ -45,4 +45,4 @@ nolearn 0.6adev (from sources)
 
 hyperopt 0.0.2 (from sources)
 
-##Juan Gomez, PhD
+## Juan Gomez, PhD
