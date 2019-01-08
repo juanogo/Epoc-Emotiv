@@ -13,7 +13,7 @@ A short real time demo can be watched in my TED Talk:
 
 * Using these features, train three algorithms: __Logistic Regression, Convolutional Neural Network and Recurrent Neural Network__ (genPreds_CNN_Tim.py, genPreds_RNN.py)
 
-* The above algorithms produce predictions that are then used to train another set of higher-level algorithms: __XGBoost, Recurrent Neural Network, Neural Network and Convolutional Neural Network__ (XGB.py, NeuralNet.py)
+* The above algorithms produce predictions that are then used to train another set of higher-level algorithms: [__XGBoost](https://statweb.stanford.edu/~jhf/ftp/trebst.pdf), Recurrent Neural Network, Neural Network and Convolutional Neural Network__ (XGB.py, NeuralNet.py)
 
 * __Diversity__ is achieved by running above algorithms with many modifications such as different subsets of metafeatures, Parametric ReLU instead of ReLU as activation, multiple layers, among many others. Also, several models are additionally bagged to increase their robustness (genEns_BagsModels.py, genEns_BagsSubjects.py). These models are then saved (genAll.sh, genEns.py, genSafe1.sh)
 
