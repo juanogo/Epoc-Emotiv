@@ -3,7 +3,7 @@
 This code predicts the imaginary hand motion of an amputee patient (undergoing phantom limb rehabilitation with an augmented reality-based technology). I used EEG-based signal processing on EEG data extracted from an Emotiv Epoc brain-interface (EDF files) in CSV format. The movements to be detected are six: __hand extension, hand contraction, finger waving, closed fist, open fist, and turn up-side down.__
 A short real time demo can be watched in my TED Talk: 
 
-https://youtu.be/e-ZBNtzpF1Q?t=419
+[Watch it on youtube](https://youtu.be/e-ZBNtzpF1Q?t=419)
 
 ![result](https://user-images.githubusercontent.com/38761819/50808388-4f070800-12cc-11e9-81e2-3fea93976c42.png)
 
