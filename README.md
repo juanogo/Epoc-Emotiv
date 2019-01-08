@@ -29,3 +29,5 @@ Keras 0.1.2 (from sources)
 Lasagne 0.2.dev1 (from sources)
 nolearn 0.6adev (from sources)
 hyperopt 0.0.2 (from sources)
+
+Juan Gomez, PhD
