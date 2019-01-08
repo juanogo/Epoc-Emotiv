@@ -7,7 +7,7 @@ https://youtu.be/e-ZBNtzpF1Q?t=419
 
 ![result](https://user-images.githubusercontent.com/38761819/50808388-4f070800-12cc-11e9-81e2-3fea93976c42.png)
 
-Here is the pipeline:
+## Here is the pipeline:
 
 __1.__	    Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
 
