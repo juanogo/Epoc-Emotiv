@@ -21,7 +21,7 @@ A short real time demo can be watched in my TED Talk:
 
 * Finally, the prediction is given by a __YOLO__ (you only look once) file that is an average of 18 models coming from step 5 (genYOLO.py, genYOLO.sh)
 
-  The final system for rehabilitation was created at BIOS Colombia (www.biosco) during my term as a Senior Scientific Researcher, as part of the project REGALIAS.
+  The final system for rehabilitation was created at [BIOS Colombia](www.bios.co) during my term as a Senior Scientific Researcher, as part of the project REGALIAS.
 
 ## Dependencies:
 
