@@ -9,19 +9,19 @@ A short real time demo can be watched in my TED Talk:
 
 ## Here is the pipeline:
 
-__1.__	    Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
+  __1.__	    Apply a bank of low pass filters and calculate the covariance matrices, then concatenated all together into a single feature set. All these are created and saved as models (genAll_.sh, genPreds.py)
 
-__2.__	    Using these features, train three algorithms: __Logistic Regression, Convolutional Neural Network and Recurrent Neural Network__ (genPreds_CNN_Tim.py, genPreds_RNN.py)
+  __2.__	    Using these features, train three algorithms: __Logistic Regression, Convolutional Neural Network and Recurrent Neural Network__ (genPreds_CNN_Tim.py, genPreds_RNN.py)
 
-__3.__	    The above algorithms produce predictions that are then used to train another set of higher-level algorithms: __XGBoost, Recurrent Neural Network, Neural Network and Convolutional Neural Network__ (XGB.py, NeuralNet.py)
+  __3.__	    The above algorithms produce predictions that are then used to train another set of higher-level algorithms: __XGBoost, Recurrent Neural Network, Neural Network and Convolutional Neural Network__ (XGB.py, NeuralNet.py)
 
-__4.__	    __Diversity__ is achieved by running above algorithms with many modifications such as different subsets of metafeatures, Parametric ReLU instead of ReLU as activation, multiple layers, among many others. Also, several models are additionally bagged to increase their robustness (genEns_BagsModels.py, genEns_BagsSubjects.py). These models are then saved (genAll.sh, genEns.py, genSafe1.sh)
+  __4.__	    __Diversity__ is achieved by running above algorithms with many modifications such as different subsets of metafeatures, Parametric ReLU instead of ReLU as activation, multiple layers, among many others. Also, several models are additionally bagged to increase their robustness (genEns_BagsModels.py, genEns_BagsSubjects.py). These models are then saved (genAll.sh, genEns.py, genSafe1.sh)
 
-__5.__	    A weighted mean of the meta-features above is applied to calculate the final prediction (WeightedMean.py). The means used are: arithmetic mean, geometric mean, power mean. A model here is an average of these three weighted means.
+  __5.__	    A weighted mean of the meta-features above is applied to calculate the final prediction (WeightedMean.py). The means used are: arithmetic mean, geometric mean, power mean. A model here is an average of these three weighted means.
 
-__6.__	    Finally, the prediction is given by a __YOLO__ (you only look once) file that is an average of 18 models coming from step 5 (genYOLO.py, genYOLO.sh)
+  __6.__	    Finally, the prediction is given by a __YOLO__ (you only look once) file that is an average of 18 models coming from step 5 (genYOLO.py, genYOLO.sh)
 
-The final system for rehabilitation was created at BIOS Colombia (www.biosco) during my term as a Senior Scientific Researcher, as part of the project REGALIAS.
+  The final system for rehabilitation was created at BIOS Colombia (www.biosco) during my term as a Senior Scientific Researcher, as part of the project REGALIAS.
 
 ## Dependencies:
 
